@@ -1,0 +1,5 @@
+figma link: https://www.figma.com/file/EV1u7KzlelpBw10xioLNXG/Rhode-Island-Water-Sports?type=design&node-id=0%3A1&mode=dev&t=mOl52roOd9jRZmip-1
+
+Build out home page from this figma in 2:15 hrs
+try to use mostly custom css as well as use bootstrap.
+you can get assets from figma.

@@ -1,0 +1,179 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  margin-bottom: 300px;
+}
+
+
+.nav{
+z-index: 100;
+position: absolute;
+padding-top: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-bottom: 1px solid white;
+width: 100%;
+color: white;
+padding-bottom: 20px;
+}
+
+
+.navimg{
+  height: 60px
+}
+
+
+
+.navimg2{
+
+  height: 600px;
+  width: 100%;
+  filter: brightness(0.8) saturate(0.8);
+
+}
+
+
+.navtitle{
+
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 40px;
+
+}
+
+
+.offercontainer{
+  margin-top: 120px; text-align: center; color: #1e1e1e
+}
+
+
+.offertitle{
+  font-weight: bolder; font-size: 28px
+}
+
+.offerdec{
+  margin-top: 20px; font-size: 16px
+}
+
+.offerimgcontainer{
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.arrocard1{
+  position: relative; width: 400px; height: 300px
+}
+
+.arrocard1img{
+  height: 300px; width: 400px; display: block
+}
+
+.arrow-card-1text{
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+.arrow-card-1arrow{
+
+  position: absolute;
+                top: 80%;
+                left: 85%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-size: 15px;
+                font-weight: 100;
+                border: 1px solid white;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+}
+
+.location1container{
+  display: flex; align-items: center; margin-top: 50px
+}
+
+.location1first{
+  position: relative; height: 600px; width: 100%
+}
+
+.location1img{
+  height: 100%; width: 100%; display: block
+}
+
+.location1smalltitle{
+  position: absolute;
+                top: 80%;
+                left: 73%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-size: 20px;
+                font-weight: 300;
+}
+
+.brandscontainer{
+  background-color: #3a3d47;
+  height: 1400px;
+  margin-top: 120px;
+  color: white;
+  text-align: center;
+
+}
+
+.brandtitle{
+  font-weight: 500; font-size: 28px; padding-top: 100px
+}
+.branddec{
+  margin-top: 20px; font-size: 16px
+}
+
+.brandimg{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.brandimg1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  column-gap: 30px;
+}
+
+.brandimg2{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.brandcardimg{
+  height: 50%; width: 100%
+}
+.brandcardlogocontainer1{
+  width: 100%; height: 50%; background-color: white"
+}
+.brandcardlogoimg{
+  padding-top: 40px; height: 26px; width: auto;margin-bottom: 10px
+}

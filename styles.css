@@ -1,8 +1,9 @@
-.container {
+.MainContainer {
   margin: 0px;
   padding: 0px;
   height: auto;
-  margin-bottom: 300px;
+  width: 100%;
+ 
 }
 
 
@@ -15,6 +16,13 @@ justify-content: space-evenly;
 align-items: center;
 border-bottom: 1px solid white;
 width: 100%;
+
+font-family: 'Rubik', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.96px;
+            letter-spacing: 0.1em;
+            
 color: white;
 padding-bottom: 20px;
 }
@@ -30,7 +38,7 @@ padding-bottom: 20px;
 
   height: 600px;
   width: 100%;
-  filter: brightness(0.8) saturate(0.8);
+  filter: brightness(0.8); 
 
 }
 
@@ -40,21 +48,29 @@ padding-bottom: 20px;
   position: absolute;
   top: 500px;
   left: 500px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  font-size: 40px;
+
+  font-family: 'Orbitron', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 80px;
+            margin-bottom: 40px; /* Paragraph spacing */
+            letter-spacing: 15%;
+            text-align: center;
+            color: white;
+
+
 
 }
 
 
 .offercontainer{
-  margin-top: 120px; text-align: center; color: #1e1e1e
+  margin-top: 120px; text-align: center; color: #1e1e1e;
+
 }
 
 
 .offertitle{
-  font-weight: bolder; font-size: 28px
+  font-weight: bolder; font-size: 28px; ; 
 }
 
 .offerdec{
@@ -176,4 +192,14 @@ padding-bottom: 20px;
 }
 .brandcardlogoimg{
   padding-top: 40px; height: 26px; width: auto;margin-bottom: 10px
+}
+
+.bold-orbitron {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+}
+
+.italic-rubik {
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
 }

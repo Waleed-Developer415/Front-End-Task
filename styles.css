@@ -3,97 +3,123 @@
   padding: 0px;
   height: auto;
   width: 100%;
- 
+
 }
 
 
-.nav{
-z-index: 100;
-position: absolute;
-padding-top: 20px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-border-bottom: 1px solid white;
-width: 100%;
-
-font-family: 'Rubik', sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 18.96px;
-            letter-spacing: 0.1em;
-            
-color: white;
-padding-bottom: 20px;
+.nav {
+  z-index: 100;
+  position: absolute;
+  padding-top: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18.96px;
+  letter-spacing: 0.1em;
+  color: white;
+  padding-bottom: 7px;
 }
 
 
-.navimg{
+.navimg {
   height: 60px
 }
 
 
 
-.navimg2{
-
+.navimg2 {
   height: 600px;
   width: 100%;
-  filter: brightness(0.8); 
-
+  filter: brightness(0.8);
 }
 
-
-.navtitle{
-
-  position: absolute;
-  top: 500px;
-  left: 500px;
-
-  font-family: 'Orbitron', sans-serif;
-            font-weight: 400;
-            font-size: 40px;
-            line-height: 80px;
-            margin-bottom: 40px; /* Paragraph spacing */
-            letter-spacing: 15%;
-            text-align: center;
-            color: white;
-
-
-
-}
-
-
-.offercontainer{
-  margin-top: 120px; text-align: center; color: #1e1e1e;
-
-}
-
-
-.offertitle{
-  font-weight: bolder; font-size: 28px; ; 
-}
-
-.offerdec{
-  margin-top: 20px; font-size: 16px
-}
-
-.offerimgcontainer{
+.menucontianer {
   display: flex;
-  justify-content: center;
-  column-gap: 20px;
-  align-items: center;
+  gap: 10px;
+}
+
+.phone {
+  font-weight: 400;
+}
+
+.menuicon {
+  height: 14px;
+}
+
+.navtitle {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 80px;
+  letter-spacing: 15%;
+  text-align: center;
+  color: white;
+}
+
+
+.offercontainer {
+  margin-top: 120px;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.locationContainer {
+  margin-top: 120px;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+
+.offertitle1 {
+  letter-spacing: 15%;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.offertitle2 {
+  letter-spacing: 15%;
+  font-size: 28px;
+  font-family: 'Orbitron';
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 15%;
+}
+
+.offerdec {
+  margin-top: 20px;
+  font-size: 16px
+}
+
+.offerimgcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   margin-top: 50px;
 }
 
-.arrocard1{
-  position: relative; width: 400px; height: 300px
+.arrocard1 {
+  position: relative;
+  width: 400px;
+  height: 300px
 }
 
-.arrocard1img{
-  height: 300px; width: 400px; display: block
+.arrocard1img {
+  height: 300px;
+  width: 400px;
+  display: block
 }
 
-.arrow-card-1text{
+.arrow-card-1text {
   position: absolute;
   top: 80%;
   left: 65%;
@@ -105,63 +131,114 @@ padding-bottom: 20px;
 
 
 
-.arrow-card-1arrow{
-
-  position: absolute;
-                top: 80%;
-                left: 85%;
-                transform: translate(-50%, -50%);
-                color: white;
-                font-size: 15px;
-                font-weight: 100;
-                border: 1px solid white;
-                border-radius: 50%;
-                height: 50px;
-                width: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-}
-
-.location1container{
-  display: flex; align-items: center; margin-top: 50px
-}
-
-.location1first{
-  position: relative; height: 600px; width: 100%
-}
-
-.location1img{
-  height: 100%; width: 100%; display: block
-}
-
-.location1smalltitle{
-  position: absolute;
-                top: 80%;
-                left: 73%;
-                transform: translate(-50%, -50%);
-                color: white;
-                font-size: 20px;
-                font-weight: 300;
-}
-
-.brandscontainer{
-  background-color: #3a3d47;
-  height: 1400px;
-  margin-top: 120px;
+.arrow-card-1arrow {
   color: white;
+  font-size: 15px;
+  font-weight: 100;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationGrid {
+  display: flex;
+  align-items: center;
+  margin-top: 50px
+}
+
+.location1first {
+  position: relative;
+  height: 600px;
+  width: 100%
+}
+
+.location1img {
+  height: 100%;
+  width: 100%;
+  display: block
+}
+
+.location1smalltitle {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.brandscontainer {
+  background-color: #3a3d47;
+  margin-top: 100px;
+  padding: 70px;
+  color: white;
+
   text-align: center;
 
 }
 
-.brandtitle{
-  font-weight: 500; font-size: 28px; padding-top: 100px
-}
-.branddec{
-  margin-top: 20px; font-size: 16px
+.cardContainer {
+  margin-top: 40px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.brandimg{
+.cardBody {
+  padding: 20px 20px 0px 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardBodyImg {
+  height: auto;
+  width: 40%;
+}
+
+.cardBodyBtn {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 10%;
+}
+
+
+.cardDesc {
+  color: #1e1e1e;
+  font-weight: 300;
+  font-family: 'Rubik';
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.brandtitle {
+  font-weight: 500;
+  font-size: 28px;
+  padding-top: 100px
+}
+
+.branddec {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 3%;
+  font-family: 'Rubik';
+
+}
+
+.brandimg {
 
   display: flex;
   justify-content: center;
@@ -170,28 +247,36 @@ padding-bottom: 20px;
   margin-top: 30px;
 }
 
-.brandimg1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  column-gap: 30px;
+.cardGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-.brandimg2{
+.card {
   height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.brandcardimg{
-  height: 50%; width: 100%
+
+.cardImg {
+  height: 50%;
+  width: 100%
 }
-.brandcardlogocontainer1{
-  width: 100%; height: 50%; background-color: white"
+
+.brandcardlogocontainer1 {
+  width: 100%;
+  height: 50%;
+  background-color: white"
+
 }
-.brandcardlogoimg{
-  padding-top: 40px; height: 26px; width: auto;margin-bottom: 10px
+
+.brandcardlogoimg {
+  padding-top: 40px;
+  height: 26px;
+  width: auto;
+  margin-bottom: 10px
 }
 
 .bold-orbitron {
@@ -202,4 +287,61 @@ padding-bottom: 20px;
 .italic-rubik {
   font-family: 'Rubik', sans-serif;
   font-style: italic;
+}
+
+.custom-section {
+  background-color: #f8fbfd;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 3%;
+  color: #1e1e1e;
+  margin-top: 100px;
+  padding: 50px 0px;
+}
+
+.custom-button {
+  border: 1px solid black;
+  width: 215px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 10%;
+  line-height: 30px;
+  color: #1e1e1e;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .offerimgcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 768px) {
+  .offerimgcontainer {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 0 20px;
+  }
+
+  .cardContainer {
+    width: 100%;
+  }
+
+  .locationGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
